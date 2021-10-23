@@ -1,0 +1,5 @@
+{
+    "watch": ["server"],
+    "ext": "ts,json",
+    "exec": "NODE_ENV=development ts-node --transpile-only --project tsconfig.server.json ./src/index.ts"
+}  
